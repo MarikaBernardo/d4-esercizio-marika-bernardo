@@ -1,0 +1,87 @@
+.card {
+    position: relative;
+}
+
+.immagine {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+
+.overlay-button {
+    position: absolute;
+    right: 458px;
+    top:61px;
+    width: 61px;
+    height: 50px;
+    background-color: white;
+    border: 4px solid green;
+    cursor: pointer;
+}
+
+.overlay-button:hover{
+background-color: rgb(43, 43, 48);
+}
+
+
+
+
+.overlay-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.cuore {
+    position: absolute;
+    top: 561px;
+    right: 631px;
+    width: 58px;
+    height: 52px;
+    background-color: white;
+    border: 4px solid rgb(87 133 87);
+    cursor: pointer;
+}
+.cuore:hover{
+    background-color: red;
+}
+
+.heart {
+    width: 100%;
+    height: 100%;
+}
+.fine {
+    position: absolute;
+    top: 561px;
+    right: 792px;
+    width: 58px;
+    height: 52px;
+    background-color: white;
+    border: 4px solid rgb(87 133 87);
+    cursor: pointer;
+}
+.fine:hover{
+    background-color: red;
+}
+
+.end {
+    width: 100%;
+    height: 100%;
+}
+.b {
+    position: absolute;
+    top: 561px;
+    right: 476px;
+    width: 58px;
+    height: 52px;
+    background-color: white;
+    border: 4px solid rgb(87 133 87);
+    cursor: pointer;
+}
+.b:hover
+{background-color: red;}
+
+.bars {
+    width: 100%;
+    height: 100%;
+}
